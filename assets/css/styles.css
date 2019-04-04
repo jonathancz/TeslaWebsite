@@ -10,6 +10,7 @@ body {
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
+  color:#333;
 }
 
 @media (min-width: 768px) {
@@ -36,5 +37,53 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
   color:rgb(34,34,34);
+}
+
+#title {
+  font-family:Montserrat, sans-serif;
+  font-weight:300;
+  font-size:32px;
+}
+
+#subtitle {
+  font-size:40px;
+  font-family:Montserrat, sans-serif;
+  font-weight:bold;
+}
+
+#hero-bottom {
+  color:#fff;
+}
+
+.p-top {
+  font-size:26px;
+  font-family:Montserrat, sans-serif;
+  font-weight:bold;
+  margin-bottom:0;
+}
+
+.p-bot {
+  font-size:13px;
+}
+
+.reserve-button {
+  background-color:rgba(0,98,204,0);
+  border:3px solid #fff;
+  border-radius:30px;
+}
+
+.btn.btn-link.btn-block.arrow-button {
+  color:rgb(255,255,255);
+}
+
+#hero-bottom .container {
+  max-width:700px;
+  text-align:center;
+}
+
+.col.with-borders {
+  border:1px solid rgba(255,255,255,0.2);
+  border-top:0;
+  border-bottom:0;
 }
 
